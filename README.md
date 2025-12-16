@@ -35,7 +35,7 @@ Este plugin está diseñado para situaciones donde se requiere evidencia técnic
 
 - Envíos de formularios
 - Consentimientos otorgados
-- Cadena de custodia de datos
+- Cadena inmutabilidad de datos
 
 **Consulte siempre con un asesor legal antes de implementar este sistema en producción.**
 
@@ -64,7 +64,7 @@ ContactForm7 Audit es un plugin de WordPress que proporciona **trazabilidad comp
 - ✅ Cookies del dominio
 - ✅ Resolución de pantalla
 - ✅ Timestamp exacto del envío
-- ✅ Hash del registro anterior (para cadena de custodia)
+- ✅ Hash del registro anterior
 
 ---
 
