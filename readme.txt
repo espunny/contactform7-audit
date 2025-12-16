@@ -163,4 +163,4 @@ La verificación procesa registros en lotes de 100 para optimizar el rendimiento
 == Support ==
 
 Para soporte, reportes de errores o solicitudes de características, visita:
-https://github.com/tuusuario/contactform7-audit/issues
+https://github.com/espunny/contactform7-audit/issues
