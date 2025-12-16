@@ -3,6 +3,15 @@
 ![WordPress Plugin](https://img.shields.io/badge/WordPress-5.0%2B-blue.svg)
 ![PHP](https://img.shields.io/badge/PHP-7.2%2B-purple.svg)
 ![License](https://img.shields.io/badge/License-GPLv2-green.svg)
+![Contact Form 7](https://img.shields.io/badge/Requires-Contact%20Form%207-orange.svg)
+
+## ⚠️ REQUISITO OBLIGATORIO
+
+**Este plugin requiere que [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) esté instalado y activado para funcionar.**
+
+Sin Contact Form 7, este plugin no tendrá ninguna funcionalidad. Asegúrate de instalar y activar Contact Form 7 antes de usar ContactForm7 Audit.
+
+---
 
 ## ⚠️ DESCARGO DE RESPONSABILIDAD
 
