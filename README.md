@@ -66,6 +66,23 @@ ContactForm7 Audit es un plugin de WordPress que proporciona **trazabilidad comp
 - ✅ Timestamp exacto del envío
 - ✅ Hash del registro anterior
 
+### 🔐 Evidencia Sólida y Verificable
+
+**Este sistema de auditoría, combinado con la custodia del correo electrónico recibido por Contact Form 7, genera una evidencia extremadamente sólida de lo que el usuario rellenó en el formulario.**
+
+La doble verificación (hash chain inmutable + correo electrónico recibido) proporciona:
+
+- **Trazabilidad técnica irrefutable**: La cadena de hash garantiza que los datos no han sido modificados
+- **Evidencia documental**: El correo electrónico generado por Contact Form 7 actúa como prueba independiente
+- **Correlación temporal**: Timestamp del registro en base de datos vs. timestamp del email recibido
+- **Validación cruzada**: Los datos almacenados en la cadena pueden ser contrastados con el contenido del email
+
+Esta combinación hace prácticamente imposible negar o disputar el contenido enviado por el usuario, ya que se requeriría manipular simultáneamente:
+
+1. La cadena criptográfica de hash en la base de datos
+2. El servidor de correo electrónico receptor
+3. Los registros de timestamp de ambos sistemas
+
 ---
 
 ## 🔧 Requisitos
