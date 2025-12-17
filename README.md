@@ -404,7 +404,7 @@ Para consultas técnicas sobre el funcionamiento del plugin:
 
 - **Autor**: Rubén García
 - **LinkedIn**: [www.linkedin.com/in/ruben-garcia-4383853a](https://www.linkedin.com/in/ruben-garcia-4383853a)
-- **Repository**: [github.com/espunny/Plugin-Trazabilidad-formularios](https://github.com/espunny/Plugin-Trazabilidad-formularios)
+- **Repository**: [github.com/espunny/Plugin-Trazabilidad-formularios](https://github.com/espunny/contactform7-audit)
 
 ---
 
