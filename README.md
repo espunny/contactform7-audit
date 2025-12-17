@@ -115,6 +115,18 @@ Una vez activado, encontrarás "CF7 Audit" en el menú lateral de WordPress:
 - **Exportar Datos**: Descarga registros en formato JSON por fechas
 - **Verificación**: Valida la integridad de la cadena de hash
 
+<img src="assets/front.png" alt="Panel de administración del plugin CF7 Audit" width="600">
+
+**Figura 1: Panel principal de administración del plugin CF7 Audit**
+
+El panel muestra estadísticas de envíos, permite verificar la integridad de la cadena de hashes y exportar los datos en formato JSON.
+
+<img src="assets/registros.png" alt="Listado de registros recientes de formularios" width="600">
+
+**Figura 2: Listado de registros recientes de envíos de formularios**
+
+La tabla muestra los envíos más recientes con información del formulario, IP del usuario, fecha y hash asociado. Cada registro puede consultarse en detalle.
+
 ### Verificación de Integridad
 
 El plugin incluye un verificador automático que:
@@ -195,6 +207,12 @@ El primer registro de la cadena usa un **hash génesis predefinido**:
 ```
 
 Este hash está hardcodeado en el código fuente (`class-hash-chain.php`, línea 22) y sirve como punto de partida verificable de la cadena.
+
+<img src="assets/hash.png" alt="Detalle técnico de un registro mostrando la cadena de hashes" width="600">
+
+**Figura 3: Detalle técnico de un registro mostrando la cadena de hashes**
+
+Vista detallada de un registro individual donde se puede observar el hash anterior (previous hash) y el hash actual (current hash), permitiendo verificar la integridad de la cadena completa. También muestra los datos del formulario, información del navegador y metadatos capturados.
 
 #### 4. Captura de Datos del Navegador
 
